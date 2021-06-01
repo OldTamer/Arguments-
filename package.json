@@ -1,0 +1,27 @@
+{
+  "name": "niro-invitemanger",
+  "version": "1.0.0",
+  "author": "N1R0",
+  "description": "All Copyright's Go's To: NIR0 && NAAR Studio Codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.2",
+    "discord-reply": "^0.1.0",
+    "dotenv": "^9.0.2",
+    "chalk": "^4.1.1",
+    "quick.db": "^7.1.2",
+    "fs": "^0.0.2",
+    "express": "^4.17.1",
+    "node-superfetch": "^0.2.3",
+    "figlet": "^1.5.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
