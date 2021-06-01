@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+   include includes/head.pug
+  body
+  include includes/navbar.pug
+  link(href='css/main.css', rel='stylesheet')
+  .jumbotron.text-center
+      img(src='https://media.discordapp.net/attachments/776819669213642754/843235510747136020/beea7f10ad12ca7aa3929c28690cd51f.png?width=625&height=469', alt='logo', style='width: 150px; hight: 150px; border-radius: 100%;')
+      hr.my-3
+      h1.display-4 Argument ✨
+      p.lead.display-6 Log the joins and leave of your server easily with Argument ✨.
+      hr.my-4
+      .btn-toolbar(role='toolbar', aria-label='Toolbar with button groups')
+      .btn-group.mr-2(role='group', aria-label='First group')
+      a.btn.btn-primary.btn-lg(href='https://discord.com/oauth2/authorize?client_id=780558820640423966&permissions=1647832432&scope=bot%20applications.commands' aria-pressed="true")   Invite
+      .btn-group.mr-2(role='group', aria-label='Second group')
+      a.btn.btn-secondary.btn-lg(href='/cmd' aria-pressed="true") Command

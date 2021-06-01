@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-lg.navbar-light
+  a.navbar-brand(href='/') Argument
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbar.collapse.navbar-collapse
+    .navbar-nav
+      a.nav-link(href='/')
+        i.fas.fa-home
+        span.pl-1 Home
+    .navbar-nav
+      a.nav-link(href='/cmd')
+        i.fas.fa-code
+        span.pl-1 Commands
+    .navbar-nav
+      a.nav-link(href='/src')
+        i.fas.fa-list
+        span.pl-1 Source   
+    .navbar-nav.ml-auto
+        a.nav-link(href='https://discord.com/oauth2/authorize?client_id=780558820640423966&permissions=1647832432&scope=bot%20applications.commands') 
+          i.fas.fa-sign-in-alt
+          span.pl-1 Invite
